@@ -5,4 +5,5 @@ AUT;AUTFTP;AUTFTP;AUTFTP;df.montoPagado;df.montoPagado;N;900-0000251229/08
 AUT;GENERAL;GENERAL;GENERAL;df.montoPagado;df.montoPagado;N;900-0000000201/03
 AUT;DTOPGOEL;DTOPGOEL;DTOPGOEL;df.montoPagado;df.montoPagado;N;900-0000000201/03
 AUT;AUTMUN;AUTMUN;AUTMUN;df.montoPagado + df.montoRecargo;df.montoPagado*.05;S;900-0000251229/08
-EMB;EMBASMT;EMBASMT;EMBASMT;df.montoPagado + df.montoRecargo;df.montoPagado;;900-0000000201/03
+EMB;EMBASMT;EMBASMT;EMBASMT;df.montoPagado + df.montoRecargo;df.montoPagado;N;900-0000000201/03
+SEL;IMPSELAUT;IMPSELAUT;IMPSELAUT;df.montoPagado + df.montoRecargo;df.montoPagado;N;900-0000000201/03

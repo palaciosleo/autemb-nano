@@ -40,19 +40,19 @@
                     {
                         "tipoMovimiento": "AUTFTP",
                         "montoPagado": 1516.67,
-                        "idTransaccion": "23110221334533",
+                        "idTransaccion": "23110311493139",
                         "caracteristica": "[{tipo: CMCCCDC, valor: }]"
                     },
                     {
                         "tipoMovimiento": "AUTMUN",
                         "montoPagado": 6106.66,
-                        "idTransaccion": "23110221334533",
+                        "idTransaccion": "23110311493139",
                         "caracteristica": "[{tipo: CMCCCDC, valor: }]"
                     },
                     {
                         "tipoMovimiento": "AUTOASMT",
                         "montoPagado": 6106.66,
-                        "idTransaccion": "23110221334533",
+                        "idTransaccion": "23110311493139",
                         "caracteristica": "[{tipo: CMCCCDC, valor: }]"
                     }
                 ]
@@ -79,7 +79,7 @@
                     {
                         "tipoMovimiento": "EMBASMT",
                         "montoPagado": 150000.0,
-                        "idTransaccion": "23110221334533",
+                        "idTransaccion": "23110311493140",
                         "caracteristica": "[{tipo: CMCCCDC, valor: }]"
                     }
                 ]

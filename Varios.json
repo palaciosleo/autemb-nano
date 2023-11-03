@@ -1,0 +1,174 @@
+  {
+  "boleta": {
+    "idEventoPago": "000165824915",
+    "idBoleta": "693416110751",
+    "idPersona": "4842565083",
+    "tipoDocumento": "CUIT",
+    "nroDocumento": "27-1234567-8",
+    "apellidoNombre": "AUTOMOTORES",
+    "codBarra": "000000000000",
+    "montoPagado": 15000.0,
+    "idRecaudador": "934",
+    "tipoPago": "CONTADO",
+    "medioPago": "CASH",
+    "cantCuotas": 0,
+    "fechaVencimiento": "2023-09-12",
+    "moneda": "ARS",
+    "fechaPago": "2023-09-12",
+    "idCuentaContribuyente": "0001658444",
+    "idReferencia": null,
+    "listPagos": [
+      {
+        "idObligacion": "0001658434",
+        "idEncomendante": "AUT-V10",
+        "idPago": "000165862502",
+        "codBarra": "000000000000",
+        "idTipoObligacion": "AUT-V10",
+        "descripcionTipoObligacion": "AUT-V10",
+        "fechaVencimientoObligacion": "2023-07-10",
+        "fechaInicioObligacion": "2023-06-01",
+        "idExterno": "AF829DI",
+        "montoPagado": 13730.0,
+        "idPersona": "4842565083",
+        "tipoDocumento": "CUIT",
+        "nroDocumento": "27-24474534-8",
+        "apellidoNombre": "MAINARDI, MARIA LORENA",
+        "totalJuicio": 0.0,
+        "honorariosJudiciales": 0.0,
+        "gastosJudiciales": 0.0,
+        "listDetallesPago": [
+          {
+            "idTransaccion": "000160299486",
+            "tipoMovimiento": "AUTOASMT",
+            "montoPagado": 6110.2,
+            "caracteristica": [
+              {
+                "tipo": "CMCCCDC",
+                "valor": "AUTOASMT"
+              }
+            ]
+          },
+          {
+            "idTransaccion": "000160299486",
+            "tipoMovimiento": "AUTMUN",
+            "montoPagado": 6110.2,
+            "caracteristica": [
+              {
+                "tipo": "CMCCCDC",
+                "valor": "AUTMUN"
+              }
+            ]
+          },
+          {
+            "idTransaccion": "000160543020",
+            "tipoMovimiento": "REDONDEO",
+            "montoPagado": -7.07,
+            "caracteristica": [
+              {
+                "tipo": "CMCCCDC",
+                "valor": "GENERAL"
+              }
+            ]
+          },
+          {
+            "idTransaccion": "000169652350",
+            "tipoMovimiento": "AUTAFTP",
+            "montoPagado": 1516.67,
+            "caracteristica": [
+              {
+                "tipo": "CMCCCDC",
+                "valor": "AUTFTP"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "idObligacion": "0001658434",
+        "idEncomendante": "EMBA-E1",
+        "idPago": "000165862502",
+        "codBarra": "000000000000",
+        "idTipoObligacion": "EMBA-E1",
+        "descripcionTipoObligacion": "EMBA-E1",
+        "fechaVencimientoObligacion": "2023-07-10",
+        "fechaInicioObligacion": "2023-06-01",
+        "idExterno": "BANDIDIO",
+        "montoPagado": 150000.0,
+        "idPersona": "4842565083",
+        "tipoDocumento": "CUIT",
+        "nroDocumento": "27-24474534-8",
+        "apellidoNombre": "BETRON, JUAN JOSE",
+        "totalJuicio": 0.0,
+        "honorariosJudiciales": 0.0,
+        "gastosJudiciales": 0.0,
+        "listDetallesPago": [
+          {
+            "idTransaccion": "000160299486",
+            "tipoMovimiento": "EMBASMT",
+            "montoPagado": 150123.0,
+            "caracteristica": [
+              {
+                "tipo": "CMCCCDC",
+                "valor": "EMBASMT"
+              }
+            ]
+          },
+          {
+            "idTransaccion": "000160299486",
+            "tipoMovimiento": "REDONDEO",
+            "montoPagado": -123.0,
+            "caracteristica": [
+              {
+                "tipo": "CMCCCDC",
+                "valor": "GENERAL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "idObligacion": "0001658434",
+        "idEncomendante": "SELL-E1",
+        "idPago": "000165862502",
+        "codBarra": "000000000000",
+        "idTipoObligacion": "SEL-E1",
+        "descripcionTipoObligacion": "SEL-E1",
+        "fechaVencimientoObligacion": "2023-07-10",
+        "fechaInicioObligacion": "2023-06-01",
+        "idExterno": "SELLOSPRUEBA",
+        "montoPagado": 140000.0,
+        "idPersona": "4842565083",
+        "tipoDocumento": "CUIT",
+        "nroDocumento": "27-245454534-8",
+        "apellidoNombre": "MANSILLA OSCAR",
+        "totalJuicio": 0.0,
+        "honorariosJudiciales": 0.0,
+        "gastosJudiciales": 0.0,
+        "listDetallesPago": [
+          {
+            "idTransaccion": "000160299486",
+            "tipoMovimiento": "IMPSELAUT",
+            "montoPagado": 140321.0,
+            "caracteristica": [
+              {
+                "tipo": "CMCCCDC",
+                "valor": "IMPSELAUT"
+              }
+            ]
+          },
+          {
+            "idTransaccion": "000160299486",
+            "tipoMovimiento": "REDONDEO",
+            "montoPagado": -321.0,
+            "caracteristica": [
+              {
+                "tipo": "CMCCCDC",
+                "valor": "GENERAL"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
