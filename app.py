@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify
-import subprocess
 import json
 import magicbox
 
@@ -13,7 +12,7 @@ def mi_api():
     # Llamar a magicbox.py con el JSON como argumento y capturar la salida
     try:
         response = magicbox.main(data)
-    except subprocess.CalledProcessError as e:
+    except Exception as e:
         response = {'error': 'Error al ejecutar magicbox.py', 'message': str(e)}
 
     return jsonify(response)
