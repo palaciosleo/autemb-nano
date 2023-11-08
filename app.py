@@ -17,5 +17,12 @@ def mi_api():
 
     return jsonify(response)
 
+@app.route('/mi_api/healthz', methods=['GET'])
+def get_health():
+    resp = jsonify(health="healthy")
+    resp.status_code = 200
+    return resp
+
+
 if __name__ == '__main__':
     app.run(debug=True)
