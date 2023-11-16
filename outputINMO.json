@@ -1,0 +1,56 @@
+{
+    "boleta": {
+        "idEventoPago": "000165824915",
+        "idBoleta": "693416110751",
+        "idPersona": "4842565083",
+        "tipoDocumento": "CUIT",
+        "nroDocumento": "27-1234567-8",
+        "apellidoNombre": "AUTOMOTORES",
+        "codBarra": "000000000000",
+        "montoPagado": 7000.0,
+        "idRecaudador": "934",
+        "tipoPago": "CONTADO",
+        "medioPago": "CASH",
+        "cantCuotas": 0,
+        "fechaVencimiento": "2023-09-12",
+        "moneda": "ARS",
+        "fechaPago": "2023-09-12",
+        "idCuentaContribuyente": "0001658444",
+        "idReferencia": null,
+        "listPagos": [
+            {
+                "idObligacion": "0001658434",
+                "idEncomendante": "INMO_ENCO",
+                "idPago": "000165862502",
+                "codBarra": "000000000000",
+                "idTipoObligacion": "INMO",
+                "descripcionTipoObligacion": "INMO",
+                "fechaVencimientoObligacion": "2023-07-10",
+                "fechaInicioObligacion": "2023-06-01",
+                "idExterno": "CASA",
+                "montoPagado": 7000.0,
+                "idPersona": "4842565083",
+                "tipoDocumento": "CUIT",
+                "nroDocumento": "27-24474534-8",
+                "apellidoNombre": "MAINARDI, MARIA LORENA",
+                "totalJuicio": 0.0,
+                "honorariosJudiciales": 0.0,
+                "gastosJudiciales": 0.0,
+                "listDetallesPago": [
+                    {
+                        "tipoMovimiento": "FDOFIDUDES",
+                        "caracteristica": "[{'tipo': 'CMCCCDC', 'valor':'FDOFIDUDES'}]",
+                        "idTransaccion": "23111513241855",
+                        "montoCalculado": 129722.28
+                    },
+                    {
+                        "tipoMovimiento": "INMRURASMT",
+                        "caracteristica": "[{'tipo': 'CMCCCDC', 'valor':'INMRURASMT'}]",
+                        "idTransaccion": "23111513241855",
+                        "montoCalculado": 50747.72
+                    }
+                ]
+            }
+        ]
+    }
+}
