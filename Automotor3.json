@@ -1,0 +1,143 @@
+{
+        "boleta": {
+            "idEventoPago": "000165824915",
+            "idBoleta": "520070122561887",
+            "idPersona": "4842565083",
+            "tipoDocumento": "CUIT",
+            "nroDocumento": "27-1234567-8",
+            "apellidoNombre": "AUTOMOTORES",
+            "codBarra": "000000000000",
+            "montoPagado": 15990.2,
+            "idRecaudador": "934",
+            "tipoPago": "CONTADO",
+            "medioPago": "CASH",
+            "cantCuotas": 0,
+            "fechaVencimiento": "2023-09-12",
+            "moneda": "ARS",
+            "fechaPago": "2023-09-12",
+            "idCuentaContribuyente": "0001658444",
+            "idReferencia": null,
+            "listPagos": [
+                {
+                    "idObligacion": "0001658434",
+                    "idEncomendante": "AUTIPV74",
+                    "idPago": "000165862502",
+                    "codBarra": "000000000000",
+                    "idTipoObligacion": "AUTIPV74",
+                    "descripcionTipoObligacion": "AUTIPV74",
+                    "fechaVencimientoObligacion": "2023-07-10",
+                    "fechaInicioObligacion": "2023-06-01",
+                    "idExterno": "AF829DI",
+                    "montoPagado": 15990.2,
+                    "idPersona": "4842565083",
+                    "tipoDocumento": "CUIT",
+                    "nroDocumento": "27-24474534-8",
+                    "apellidoNombre": "MAINARDI, MARIA LORENA",
+                    "totalJuicio": 0.0,
+                    "honorariosJudiciales": 0.0,
+                    "gastosJudiciales": 0.0,
+                    "listDetallesPago": [
+                        {
+                            "idTransaccion": "000160299486",
+                            "tipoMovimiento": "AUTOASMT",
+                            "montoPagado": 2000.4,
+                            "caracteristica": [
+                                {
+                                    "tipo": "CMCCCDC",
+                                    "valor": "AUTOASMT"
+                                }
+                            ]
+                        },
+                        {
+                            "idTransaccion": "000160299486",
+                            "tipoMovimiento": "AUTOASMT",
+                            "montoPagado": 1000.3,
+                            "caracteristica": [
+                                {
+                                    "tipo": "CMCCCDC",
+                                    "valor": "AUTOASMT"
+                                }
+                            ]
+                        },
+                        {
+                            "idTransaccion": "000160299486",
+                            "tipoMovimiento": "AUTOASMT",
+                            "montoPagado": 8000.4,
+                            "caracteristica": [
+                                {
+                                    "tipo": "CMCCCDC",
+                                    "valor": "AUTOASMT"
+                                }
+                            ]
+                        },                      
+                        {
+                            "idTransaccion": "000160299486",
+                            "tipoMovimiento": "AUTMUN",
+                            "montoPagado": 5000.6,
+                            "caracteristica": [
+                                {
+                                    "tipo": "CMCCCDC",
+                                    "valor": "AUTMUN"
+                                }
+                            ]
+                        },
+                        {
+                            "idTransaccion": "000169652350",
+                            "tipoMovimiento": "AUTAFTP",
+                            "montoPagado": 50.5,
+                            "caracteristica": [
+                                {
+                                    "tipo": "CMCCCDC",
+                                    "valor": "AUTFTP"
+                                }
+                            ]
+                        },
+                        {
+                            "idTransaccion": "000169652350",
+                            "tipoMovimiento": "DTOPGOEL",
+                            "montoPagado": -15.5,
+                            "caracteristica": [
+                                {
+                                    "tipo": "CMCCCDC",
+                                    "valor": "DTOPGOEL"
+                                }
+                            ]
+                        },
+                        {
+                            "idTransaccion": "000169652350",
+                            "tipoMovimiento": "DTOPGOEL",
+                            "montoPagado": -5.5,
+                            "caracteristica": [
+                                {
+                                    "tipo": "CMCCCDC",
+                                    "valor": "DTOPGOEL"
+                                }
+                            ]
+                        },
+                        {
+                            "idTransaccion": "000160543020",
+                            "tipoMovimiento": "REDONDEO",
+                            "montoPagado": -35.5,
+                            "caracteristica": [
+                                {
+                                    "tipo": "CMCCCDC",
+                                    "valor": "GENERAL"
+                                }
+                            ]
+                        },
+                        {
+                            "idTransaccion": "000160543020",
+                            "tipoMovimiento": "REDONDEO",
+                            "montoPagado": -5.5,
+                            "caracteristica": [
+                                {
+                                    "tipo": "CMCCCDC",
+                                    "valor": "GENERAL"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+}

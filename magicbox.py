@@ -16,7 +16,8 @@ def get_formulas():
 
         with cx_Oracle.connect(user, password, sid, encoding="UTF-8") as connection:
             cursor = connection.cursor()
-            cursor.execute('select impuesto, cpto_origen, for_cpto_calculo, cpto_distri, formula_calculo, formula_distri, distribuye, cta_destino from formulas')
+            cursor.execute(
+                'select impuesto, cpto_origen, for_cpto_calculo, cpto_distri, formula_calculo, formula_distri, distribuye, cta_destino from formulas')
             result_set = cursor.fetchall()
             df_formulas = pd.DataFrame(result_set, columns=[col[0] for col in cursor.description])
         return df_formulas
@@ -129,7 +130,6 @@ def main(data):
 
     # Separo formulas de calculo y distribucion
     df_formulas_calc = df_formulas.drop(["for_formula_distri", 'for_cta_destino'], axis=1)
-
 
     lista_pagos_actualizados = []
     # Recorro los listPagos

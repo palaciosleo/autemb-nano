@@ -1,0 +1,77 @@
+{
+    "boleta": {
+        "idEventoPago": "000165824915",
+        "idBoleta": "693416110751",
+        "idPersona": "4842565083",
+        "tipoDocumento": "CUIT",
+        "nroDocumento": "27-1234567-8",
+        "apellidoNombre": "AUTOMOTORES",
+        "codBarra": "000000000000",
+        "montoPagado": 7619.8,
+        "idRecaudador": "934",
+        "tipoPago": "CONTADO",
+        "medioPago": "CASH",
+        "cantCuotas": 0,
+        "fechaVencimiento": "2023-09-12",
+        "moneda": "ARS",
+        "fechaPago": "2023-09-12",
+        "idCuentaContribuyente": "0001658444",
+        "idReferencia": null,
+        "listPagos": [
+            {
+                "idObligacion": "0001658434",
+                "idEncomendante": "AUT-V10",
+                "idPago": "000165862502",
+                "codBarra": "000000000000",
+                "idTipoObligacion": "AUT-V10",
+                "descripcionTipoObligacion": "AUT-V10",
+                "fechaVencimientoObligacion": "2023-07-10",
+                "fechaInicioObligacion": "2023-06-01",
+                "idExterno": "AF829DI",
+                "montoPagado": 7619.8,
+                "idPersona": "4842565083",
+                "tipoDocumento": "CUIT",
+                "nroDocumento": "27-24474534-8",
+                "apellidoNombre": "MAINARDI, MARIA LORENA",
+                "totalJuicio": 0.0,
+                "honorariosJudiciales": 0.0,
+                "gastosJudiciales": 0.0,
+                "listDetallesPago": [
+                    {
+                        "idTransaccion": "000160299486",
+                        "tipoMovimiento": "AUTOASMT",
+                        "montoPagado": 6110.2,
+                        "caracteristica": [
+                            {
+                                "tipo": "CMCCCDC",
+                                "valor": "AUTOASMT"
+                            }
+                        ]
+                    },
+                    {
+                        "idTransaccion": "000160543020",
+                        "tipoMovimiento": "REDONDEO",
+                        "montoPagado": -7.07,
+                        "caracteristica": [
+                            {
+                                "tipo": "CMCCCDC",
+                                "valor": "GENERAL"
+                            }
+                        ]
+                    },
+                    {
+                        "idTransaccion": "000169652350",
+                        "tipoMovimiento": "AUTAFTP",
+                        "montoPagado": 1516.67,
+                        "caracteristica": [
+                            {
+                                "tipo": "CMCCCDC",
+                                "valor": "AUTFTP"
+                            }
+                        ]
+                    }                    
+                ]
+            }
+        ]
+    }
+}
