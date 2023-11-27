@@ -79,9 +79,9 @@ def main(data):
     boleta_nueva = data['boleta']
     boleta_nueva['listPagos'] = lista_pagos_actualizados
 
-    #with open("outputAUTbyLeo.json", "w") as outfile:
+    with open("outputAUTbyLeo.json", "w") as outfile:
     #    # with open("outputEMB.json", "w") as outfile:
-    #    json.dump({'boleta':boleta_nueva}, outfile, indent=4)
+        json.dump({'boleta':boleta_nueva}, outfile, indent=4)
     return {'boleta':boleta_nueva}
 
 

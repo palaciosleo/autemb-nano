@@ -1,13 +1,13 @@
 {
     "boleta": {
         "idEventoPago": "000165824915",
-        "idBoleta": "693416110751",
+        "idBoleta": "520070122561887",
         "idPersona": "4842565083",
         "tipoDocumento": "CUIT",
         "nroDocumento": "27-1234567-8",
         "apellidoNombre": "AUTOMOTORES",
         "codBarra": "000000000000",
-        "montoPagado": 15000.0,
+        "montoPagado": 15990.2,
         "idRecaudador": "934",
         "tipoPago": "CONTADO",
         "medioPago": "CASH",
@@ -20,15 +20,15 @@
         "listPagos": [
             {
                 "idObligacion": "0001658434",
-                "idEncomendante": "AUT-V10",
+                "idEncomendante": "AUTIPV74",
                 "idPago": "000165862502",
                 "codBarra": "000000000000",
-                "idTipoObligacion": "AUT-V10",
-                "descripcionTipoObligacion": "AUT-V10",
+                "idTipoObligacion": "AUTIPV74",
+                "descripcionTipoObligacion": "AUTIPV74",
                 "fechaVencimientoObligacion": "2023-07-10",
                 "fechaInicioObligacion": "2023-06-01",
                 "idExterno": "AF829DI",
-                "montoPagado": 13730.0,
+                "montoPagado": 15990.2,
                 "idPersona": "4842565083",
                 "tipoDocumento": "CUIT",
                 "nroDocumento": "27-24474534-8",
@@ -38,49 +38,60 @@
                 "gastosJudiciales": 0.0,
                 "listDetallesPago": [
                     {
+                        "tipo": "CMCCCDC",
+                        "FOR_IMPUESTO": "AUT",
                         "tipoMovimiento": "AUTFTP",
-                        "montoPagado": 1516.67,
-                        "idTransaccion": "23110311493139",
-                        "caracteristica": "[{tipo: CMCCCDC, valor: }]"
+                        "FOR_FORMULA_CALCULO": "df.montoPagado",
+                        "FOR_PRORRATEA": "N",
+                        "FOR_VIGENCIA_DESDE": "1/1/2023",
+                        "FOR_VIGENCIA_HASTA": "31/12/2024",
+                        "FOR_SALIDA_JSON": "S",
+                        "montoRecargo": -31.0,
+                        "montoPagado": 50.5,
+                        "idTransaccion": "23111712413798",
+                        "caracteristica": "[{'tipo': 'CMCCCDC', 'valor':'AUTFTP'}]"
                     },
                     {
+                        "tipo": "CMCCCDC",
+                        "FOR_IMPUESTO": "AUT",
                         "tipoMovimiento": "AUTMUN",
-                        "montoPagado": 6106.66,
-                        "idTransaccion": "23110311493139",
-                        "caracteristica": "[{tipo: CMCCCDC, valor: }]"
+                        "FOR_FORMULA_CALCULO": "df.montoPagado + df.montoRecargo",
+                        "FOR_PRORRATEA": "S",
+                        "FOR_VIGENCIA_DESDE": "1/1/2023",
+                        "FOR_VIGENCIA_HASTA": "31/12/2024",
+                        "FOR_SALIDA_JSON": "S",
+                        "montoRecargo": -31.0,
+                        "montoPagado": 4969.6,
+                        "idTransaccion": "23111712413798",
+                        "caracteristica": "[{'tipo': 'CMCCCDC', 'valor':'AUTMUN'}]"
                     },
                     {
+                        "tipo": "CMCCCDC",
+                        "FOR_IMPUESTO": "AUT",
                         "tipoMovimiento": "AUTOASMT",
-                        "montoPagado": 6106.66,
-                        "idTransaccion": "23110311493139",
-                        "caracteristica": "[{tipo: CMCCCDC, valor: }]"
-                    }
-                ]
-            },
-            {
-                "idObligacion": "0001658434",
-                "idEncomendante": "EMBA-E1",
-                "idPago": "000165862502",
-                "codBarra": "000000000000",
-                "idTipoObligacion": "EMBA-E1",
-                "descripcionTipoObligacion": "EMBA-E1",
-                "fechaVencimientoObligacion": "2023-07-10",
-                "fechaInicioObligacion": "2023-06-01",
-                "idExterno": "BANDIDIO",
-                "montoPagado": 150000.0,
-                "idPersona": "4842565083",
-                "tipoDocumento": "CUIT",
-                "nroDocumento": "27-24474534-8",
-                "apellidoNombre": "BETRON, JUAN JOSE",
-                "totalJuicio": 0.0,
-                "honorariosJudiciales": 0.0,
-                "gastosJudiciales": 0.0,
-                "listDetallesPago": [
+                        "FOR_FORMULA_CALCULO": "df.montoPagado + df.montoRecargo",
+                        "FOR_PRORRATEA": "S",
+                        "FOR_VIGENCIA_DESDE": "1/1/2023",
+                        "FOR_VIGENCIA_HASTA": "31/12/2024",
+                        "FOR_SALIDA_JSON": "S",
+                        "montoRecargo": -31.0,
+                        "montoPagado": 10970.1,
+                        "idTransaccion": "23111712413798",
+                        "caracteristica": "[{'tipo': 'CMCCCDC', 'valor':'AUTOASMT'}]"
+                    },
                     {
-                        "tipoMovimiento": "EMBASMT",
-                        "montoPagado": 150000.0,
-                        "idTransaccion": "23110311493140",
-                        "caracteristica": "[{tipo: CMCCCDC, valor: }]"
+                        "tipo": "CMCCCDC",
+                        "FOR_IMPUESTO": "AUT",
+                        "tipoMovimiento": "GENERAL",
+                        "FOR_FORMULA_CALCULO": "df.montoRecargo",
+                        "FOR_PRORRATEA": "N",
+                        "FOR_VIGENCIA_DESDE": "1/1/2023",
+                        "FOR_VIGENCIA_HASTA": "31/12/2024",
+                        "FOR_SALIDA_JSON": "N",
+                        "montoRecargo": -31.0,
+                        "montoPagado": -31.0,
+                        "idTransaccion": "23111712413798",
+                        "caracteristica": "[{'tipo': 'CMCCCDC', 'valor':'GENERAL'}]"
                     }
                 ]
             }

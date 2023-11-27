@@ -86,6 +86,8 @@ def main(data):
             v_salida = calculado
             v_salida['idTransaccion'] = datetime.now().strftime('%y%m%d%H%M%S%f')[:14]
             v_salida['caracteristica'] = v_salida['tipoMovimiento'].apply(lambda x: f"[{{'tipo': 'CMCCCDC', 'valor':'{x}'}}]")
+            v_salida = v_salida[(v_salida['montoPagado'] > 0) & (v_salida['FOR_SALIDA_JSON'] == 'S')]
+            v_salida = v_salida[['tipoMovimiento','montoPagado','idTransaccion','caracteristica']]
 
             pago_actualizado = listPago
             pago_actualizado['listDetallesPago'] = v_salida.to_dict('records')
@@ -95,10 +97,10 @@ def main(data):
     boleta_nueva = data['boleta']
     boleta_nueva['listPagos'] = lista_pagos_actualizados
 
-    with open("outputAUTbyLeo.json", "w") as outfile:
+    #with open("outputAUTbyLeo.json", "w") as outfile:
         #    # with open("outputEMB.json", "w") as outfile:
-        json.dump({'boleta': boleta_nueva}, outfile, indent=4)
-    return {'boleta': boleta_nueva}
+    #    json.dump({'boleta': boleta_nueva}, outfile, indent=4)
+    print({'boleta': boleta_nueva})
 
 
 if __name__ == "__main__":

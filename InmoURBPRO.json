@@ -1,0 +1,154 @@
+{
+    "boleta": {
+        "idEventoPago": "000165824915",
+        "idBoleta": "693416110751",
+        "idPersona": "4842565083",
+        "tipoDocumento": "CUIT",
+        "nroDocumento": "27-1234567-8",
+        "apellidoNombre": "AUTOMOTORES",
+        "codBarra": "000000000000",
+        "montoPagado": 180488.4,
+        "idRecaudador": "934",
+        "tipoPago": "CONTADO",
+        "medioPago": "CASH",
+        "cantCuotas": 0,
+        "fechaVencimiento": "2023-09-12",
+        "moneda": "ARS",
+        "fechaPago": "2023-09-12",
+        "idCuentaContribuyente": "0001658444",
+        "idReferencia": null,
+        "listPagos": [
+            {
+                "idObligacion": "0001658434",
+                "idEncomendante": "INMO_ENCO",
+                "idPago": "000165862502",
+                "codBarra": "000000000000",
+                "idTipoObligacion": "INMO",
+                "descripcionTipoObligacion": "INMO",
+                "fechaVencimientoObligacion": "2023-07-10",
+                "fechaInicioObligacion": "2023-06-01",
+                "idExterno": "CASA",
+                "montoPagado": 180488.4,
+                "idPersona": "4842565083",
+                "tipoDocumento": "CUIT",
+                "nroDocumento": "27-24474534-8",
+                "apellidoNombre": "MAINARDI, MARIA LORENA",
+                "totalJuicio": 0.0,
+                "honorariosJudiciales": 0.0,
+                "gastosJudiciales": 0.0,
+                "listDetallesPago": [
+                    {
+                        "idTransaccion": "000160299486",
+                        "tipoMovimiento": "FDOINFRGAS",
+                        "montoPagado": 310175.27,
+                        "caracteristica": [
+                            {
+                                "tipo": "CMCCCDC",
+                                "valor": "FDOINFRGAS"
+                            }
+                        ]
+                    },
+                      {
+                        "idTransaccion": "000160299486",
+                        "tipoMovimiento": "INMURBASMT",
+                        "montoPagado": 212347.5,
+                        "caracteristica": [
+                            {
+                                "tipo": "CMCCCDC",
+                                "valor": "INMURBASMT"
+                            }
+                        ]
+                    },                      
+                    {
+                        "idTransaccion": "000160299486",
+                        "tipoMovimiento": "INMURBCOTA",
+                        "montoPagado": -180989.23,
+                        "caracteristica": [
+                            {
+                                "tipo": "CMCCCDC",
+                                "valor": "INMURBCOTA"
+                            }
+                        ]
+                    },                 
+                      {
+                        "idTransaccion": "000160299486",
+                        "tipoMovimiento": "INMURBEXE",
+                        "montoPagado": -105266.98,
+                        "caracteristica": [
+                            {
+                                "tipo": "CMCCCDC",
+                                "valor": "INMURBEXE"
+                            }
+                        ]
+                    },
+                      {
+                        "idTransaccion": "000160299486",
+                        "tipoMovimiento": "INMURBIPAP",
+                        "montoPagado": 32127.09,
+                        "caracteristica": [
+                            {
+                                "tipo": "CMCCCDC",
+                                "valor": "INMURBIPAP"
+                            }
+                        ]
+                    },
+                      {
+                        "idTransaccion": "000160299486",
+                        "tipoMovimiento": "INMCIUCUM",
+                        "montoPagado": -91006.07,
+                        "caracteristica": [
+                            {
+                                "tipo": "CMCCCDC",
+                                "valor": "INMCIUCUM"
+                            }
+                        ]
+                    },
+                      {
+                        "idTransaccion": "000160299486",
+                        "tipoMovimiento": "DTOPGOEL",
+                        "montoPagado": -9498.94,
+                        "caracteristica": [
+                            {
+                                "tipo": "CMCCCDC",
+                                "valor": "DTOPGOEL"
+                            }
+                        ]
+                    },
+                      {
+                        "idTransaccion": "000160299486",
+                        "tipoMovimiento": "GENERAL",
+                        "montoPagado": -9.76,
+                        "caracteristica": [
+                            {
+                                "tipo": "CMCCCDC",
+                                "valor": "GENERAL"
+                            }
+                        ]
+                    },                    
+                      {
+                        "idTransaccion": "000160299486",
+                        "tipoMovimiento": "ADIBALD",
+                        "montoPagado": 18.4,
+                        "caracteristica": [
+                            {
+                                "tipo": "CMCCCDC",
+                                "valor": "ADIBALD"
+                            }
+                        ]
+                    },
+                      {
+                        "idTransaccion": "000160299486",
+                        "tipoMovimiento": "INMFTP",
+                        "montoPagado": 12591.12,
+                        "caracteristica": [
+                            {
+                                "tipo": "CMCCCDC",
+                                "valor": "INMFTP"
+                            }
+                        ]
+                    }                    
+                ]
+            }
+        ]
+    }
+}

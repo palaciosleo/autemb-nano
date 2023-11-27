@@ -7,7 +7,7 @@
         "nroDocumento": "27-1234567-8",
         "apellidoNombre": "AUTOMOTORES",
         "codBarra": "000000000000",
-        "montoPagado": 15000.0,
+        "montoPagado": 180488.4,
         "idRecaudador": "934",
         "tipoPago": "CONTADO",
         "medioPago": "CASH",
@@ -20,15 +20,15 @@
         "listPagos": [
             {
                 "idObligacion": "0001658434",
-                "idEncomendante": "AUT-V10",
+                "idEncomendante": "INMO_ENCO",
                 "idPago": "000165862502",
                 "codBarra": "000000000000",
-                "idTipoObligacion": "AUT-V10",
-                "descripcionTipoObligacion": "AUT-V10",
+                "idTipoObligacion": "INMO",
+                "descripcionTipoObligacion": "INMO",
                 "fechaVencimientoObligacion": "2023-07-10",
                 "fechaInicioObligacion": "2023-06-01",
-                "idExterno": "AF829DI",
-                "montoPagado": 13730.0,
+                "idExterno": "CASA",
+                "montoPagado": 180488.4,
                 "idPersona": "4842565083",
                 "tipoDocumento": "CUIT",
                 "nroDocumento": "27-24474534-8",
@@ -38,71 +38,16 @@
                 "gastosJudiciales": 0.0,
                 "listDetallesPago": [
                     {
-                        "tipoMovimiento": "AUTFTP",
-                        "montoPagado": 1516.67,
-                        "idTransaccion": "23110221372263",
-                        "caracteristica": "[{tipo: CMCCCDC, valor: }]"
-                    },
-                    {
-                        "tipoMovimiento": "AUTMUN",
-                        "montoPagado": 6106.66,
-                        "idTransaccion": "23110221372263",
-                        "caracteristica": "[{tipo: CMCCCDC, valor: }]"
-                    },
-                    {
-                        "tipoMovimiento": "AUTOASMT",
-                        "montoPagado": 6106.66,
-                        "idTransaccion": "23110221372263",
-                        "caracteristica": "[{tipo: CMCCCDC, valor: }]"
-                    },
-                    {
-                        "tipoMovimiento": "EMBASMT",
-                        "montoPagado": 150119.46,
-                        "idTransaccion": "23110221372263",
-                        "caracteristica": "[{tipo: CMCCCDC, valor: }]"
-                    }
-                ]
-            },
-            {
-                "idObligacion": "0001658434",
-                "idEncomendante": "EMBA-E1",
-                "idPago": "000165862502",
-                "codBarra": "000000000000",
-                "idTipoObligacion": "EMBA-E1",
-                "descripcionTipoObligacion": "EMBA-E1",
-                "fechaVencimientoObligacion": "2023-07-10",
-                "fechaInicioObligacion": "2023-06-01",
-                "idExterno": "BANDIDIO",
-                "montoPagado": 150000.0,
-                "idPersona": "4842565083",
-                "tipoDocumento": "CUIT",
-                "nroDocumento": "27-24474534-8",
-                "apellidoNombre": "BETRON, JUAN JOSE",
-                "totalJuicio": 0.0,
-                "honorariosJudiciales": 0.0,
-                "gastosJudiciales": 0.0,
-                "listDetallesPago": [
-                    {
+                        "tipoMovimiento": "INMURBASMT",
+                        "caracteristica": "[{'tipo': 'CMCCCDC', 'valor':'INMURBASMT'}]",
                         "idTransaccion": "000160299486",
-                        "tipoMovimiento": "EMBASMT",
-                        "montoPagado": 150123.0,
-                        "caracteristica": [
-                            {
-                                "tipo": "CMCCCDC",
-                                "valor": "EMBASMT"
-                            }
-                        ]
+                        "montoCalculado": 50766.12
                     },
                     {
+                        "tipoMovimiento": "FDOINFRGAS",
+                        "caracteristica": "[{'tipo': 'CMCCCDC', 'valor':'FDOINFRGAS'}]",
                         "idTransaccion": "000160299486",
-                        "tipoMovimiento": "REDONDEO",
-                        "montoPagado": -123.0,
-                        "caracteristica": [
-                            {
-                                "tipo": "CMCCCDC",
-                                "valor": "GENERAL"
-                            }
-                        ]
+                        "montoCalculado": 129722.28
                     }
                 ]
             }
